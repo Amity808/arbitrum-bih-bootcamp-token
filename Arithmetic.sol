@@ -7,13 +7,11 @@ pragma solidity 0.8.0;
 
 contract Arithmetic {
 
-    function getEvenNumber(uint256 even) public pure returns(bool)
-   { 
+    function getEvenNumber(uint256 even) public pure returns(bool) { 
     return even % 2 == 0;
    }
 
-   function getOddNumber (uint256 odd) public pure returns(bool)
-   {
+   function getOddNumber (uint256 odd) public pure returns(bool) {
     return odd  % 2 != 0;
    } 
 
